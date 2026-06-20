@@ -1,0 +1,74 @@
+Fiesta sorpresa
+
+inicio
+Elegir a la persona y la fecha
+invitar amigos 
+Elegir lugar 
+ Si la persona está en casa: distraerla o sacarla con alguna excusa
+ Si no está en casa: comenzar preparación directamente
+Decorar el lugar
+Preparar comida y bebida
+llegada de invitados
+Recibir invitados
+Pedir que guarden silencio
+Indicar dónde esconderse
+ Si faltan muchos invitados seguir decorando o conversar
+ Si ya casi todos llegaron organizar posiciones
+ Si la persona está por llegar apagar luces
+Esperar la llegada de la persona
+Cuando llegue
+ Todos gritan Sorpresa
+Iniciar la fiesta
+Si se termina la comida pedir más
+Si la gente se va retirando 
+ despedirse
+ Finalizar la fiesta
+Limpiar el lugar
+Fin
+
+examen importante
+
+inicio
+apuntar fecha en el calendario
+Conseguir apuntes 
+Hacer lista de temas
+Repetir hasta estar listo
+ Leer un tema
+ Repasar apuntes
+ Practicar ejercicios
+Si entiende el tema pasar al siguiente
+Si no entiende buscar ayuda
+Si tiene pocas dudas anotarlas y seguir
+Si tiene muchas dudas detenerse y aclarar
+Realizar simulacros de examen
+Si obtiene buenos resultados reforzar puntos débiles
+Si obtiene malos resultados volver a estudiar
+Preparar materiales para el día del examen
+Dormir bien
+Presentar el examen
+Fin
+
+
+
+
+viaje de diversión
+
+inicio 
+Elegir lugar
+decidir una fechas
+Hacer presupuesto
+Reservar transporte y hospedaje
+Hacer lista de cosas por llevar
+Gurdar objetos necesarios
+Si el clima es frío empacar abrigos
+Si es cálido empacar ropa ligera
+Si falta algo importante
+ comprarlo
+Si todo está listo
+ continuar
+Confirmar reservas
+El día del viaje:
+ Revisar equipaje
+ Salir con tiempo
+ Llegar al destino
+Fin

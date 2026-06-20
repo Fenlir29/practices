@@ -1,0 +1,93 @@
+Ver Video en YouTube
+inicio 
+escoger dispositivo 
+ si tiene computadora 
+  prender computadora 
+  abrir el navegador 
+  buscar en la barra de búsqueda https://www.youtube.com/
+  buscar el video
+  Mientras no se encuentre un video que se quiera ver recargar pagina  
+  dar click al video 
+  ver 
+Sino se tiene computadora usar teléfono 
+ desbloquear teléfono 
+ buscar el app de YouTube 
+ Mientras no se encuentre un video que se quiera ver recargar pagina  
+ tap al video que se quiera ver 
+Fin.
+
+Rutina diaria
+Inicio
+Despertar
+Si es día laboral
+ levantarse temprano
+Sino
+ levantarse más tarde
+Apagar alarma
+Estirarse
+Tender la cama
+Ir al baño
+Bañarse 
+Preparar desayuno
+Si tiene tiempo
+ desayuno completo
+Sino
+ desayuno rápido
+Comer
+Lavarse los dientes
+Peinarse
+Vestirse
+Revisar el celular
+Si es día laboral
+ Preparar cosas del trabajo
+Si va tarde
+ salir rápido
+Sino
+ salir con calma
+Salir de casa
+Si tiene carro
+ prender el carro
+ manejar al trabajo
+Sino
+ aminar a la parada
+ tomar el bús
+Llegar al trabajo
+Repetir hasta que termine el horario
+ Realizar tareas
+ Revisar pendientes
+ Tomar descanso
+Almorzar
+Si está muy cansado
+ descansar un momento
+Sino
+ seguir trabajando
+Terminar jornada laboral
+Regresar a casa
+Llegar a casa
+Si es fin de semana
+ dormir hasta tarde
+ levantarse con calma
+ Almorzar
+Si tiene energía
+ salir a entrenar
+Sino
+ descansar en casa
+ Ver redes sociales o entretenimiento
+ Hacer tareas del hogar
+ Hablar con familia o amigos  
+ Cena
+Si tiene pendientes
+ terminarlos
+Sino
+ relajarse 
+Preparar cosas para el día siguiente
+Ir al baño
+Lavarse los dientes
+Ponerse ropa para dormir
+
+Si no tiene sueño
+ usar el celular o leer
+Sino
+Ir a la cama
+ dormir
+Fin
