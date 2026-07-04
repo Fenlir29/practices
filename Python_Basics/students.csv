@@ -1,4 +1,3 @@
-nombre,seccion,español,ingles,sociales,ciencias
-pepe,10A,80.0,70.0,90.0,60.0
-isaac,10B,70.0,80.0,60.0,80.0
-gene,10B,50.0,50.0,60.0,70.0
+name,section,spanish,english,social_studies,science
+isaac,A10,80.0,80.0,40.0,60.0
+gene,50M,80.0,40.0,70.0,90.0

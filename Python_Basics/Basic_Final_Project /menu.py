@@ -21,7 +21,7 @@ def get_valid_menu_option():
 
 
 
-def show_menu():
+def show_menu(students):
     while True:
         print("\n" + "-" * 30)
         print("MENU")
@@ -41,24 +41,21 @@ def show_menu():
 
 
         if option == 1:
-            add_student()
+            add_student(students)
         elif option == 2:
-            view_all_students()
+            view_all_students(students)
         elif option == 3:
-            view_top3()
+            view_top3(students)
         elif option == 4:
-            view_overall_average()
+            view_overall_average(students)
         elif option == 5:
-            view_failing_students()
+            view_failing_students(students)
         elif option == 6:
-            delete_student()
+            delete_student(students)
         elif option == 7:
-            export_data()
+            export_data(students)
         elif option == 8:
-            import_data()
+            import_data(students)
         elif option == 9:
             print("\nGracias por utilizar el Sistema de Gestión de Estudiantes. Hasta pronto.")
             return
-
-
-show_menu()

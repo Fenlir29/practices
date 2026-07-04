@@ -2,7 +2,7 @@ import csv
 from actions import students, is_valid_name, is_valid_section, is_valid_grade
 
 
-def export_data():
+def export_data(students):
 
     if not students:
         print("Informacion no exportada")
@@ -12,7 +12,7 @@ def export_data():
     
     try:
         with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
-            fieldnames = ['nombre', 'seccion', 'español', 'ingles', 'sociales', 'ciencias']
+            fieldnames = ['name', 'section', 'spanish', 'english', 'social_studies', 'science']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             
             writer.writeheader()
@@ -26,7 +26,7 @@ def export_data():
         print(f"Error al expotar {error}")
 
 
-def import_data():
+def import_data(students):
     filename = "students.csv"
     
     try:
@@ -38,14 +38,14 @@ def import_data():
             error_count = 0
             
             for row in reader:
-                name = row.get('nombre', '').strip()
-                section = row.get('seccion', '').strip().upper()
+                name = row.get('name', '').strip()
+                section = row.get('section', '').strip().upper()
                 
                 try:
-                    spanish = float(row.get('español', 0))
-                    english = float(row.get('ingles', 0))
-                    social = float(row.get('sociales', 0))
-                    science = float(row.get('ciencias', 0))
+                    spanish = float(row.get('spanish', 0))
+                    english = float(row.get('english', 0))
+                    social = float(row.get('social_studies', 0))
+                    science = float(row.get('science', 0))
                 except ValueError:
                     error_count += 1
                     continue
@@ -64,19 +64,19 @@ def import_data():
                     continue
                 
                 
-                if any(s['nombre'].lower() == name.lower() and 
-                       s['seccion'] == section for s in students):
+                if any(s['name'].lower() == name.lower() and 
+                       s['section'] == section for s in students):
                     error_count += 1
                     continue
                 
                 
                 student = {
-                    'nombre': name,
-                    'seccion': section,
-                    'español': spanish,
-                    'ingles': english,
-                    'sociales': social,
-                    'ciencias': science
+                    'name': name,
+                    'section': section,
+                    'spanish': spanish,
+                    'english': english,
+                    'social_studies': social,
+                    'science': science
                 }
                 
                 students.append(student)
