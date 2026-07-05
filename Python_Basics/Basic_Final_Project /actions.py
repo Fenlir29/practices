@@ -1,4 +1,3 @@
-students = []
 def is_valid_name(name):
     if not name or not name.strip():
         return False
@@ -194,7 +193,7 @@ def delete_student(students):
     
     print(f"\nEstudiante encontrado:")
     print(f"name: {student_to_delete['name']}")
-    print(f"seccion: {student_to_delete['seccion']}")
+    print(f"section: {student_to_delete['section']}")
     print(f"media: {calculate_student_average(student_to_delete):.1f}")
 
     confirm = input(f"\nSeguro que quieres eliminar este estudiante? (y/n): ")

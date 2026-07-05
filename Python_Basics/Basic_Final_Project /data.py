@@ -1,5 +1,5 @@
 import csv
-from actions import students, is_valid_name, is_valid_section, is_valid_grade
+from actions import is_valid_name, is_valid_section, is_valid_grade
 
 
 def export_data(students):
