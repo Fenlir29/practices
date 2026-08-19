@@ -13,13 +13,13 @@ class BankAccount:
 class SavingsAccount(BankAccount):
 
     def __init__(self, balance, min_balance):
-        self.balance = balance
+        super().__init__(balance)
         self.min_balance = min_balance
 
     def withdraw(self, amount):
+        new_balance = self.balance - amount
 
-        if self.balance - amount >= self.min_balance:
-            self.balance -= amount
-            print("Retiro realizado")
-        else:
-            print("No se puede realizar el retiro")
+        if new_balance < self.min_balance:
+            raise ValueError("No se puede completar transaccion")
+
+        self.balance = new_balance
