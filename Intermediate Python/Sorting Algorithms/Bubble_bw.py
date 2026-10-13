@@ -1,6 +1,6 @@
 def bubble_sort_backwards(list_to_sort):
     for out_index in range(len(list_to_sort)-1,0,-1):
-        for index in range(len(list_to_sort)-1,0,-1):
+        for index in range(len(list_to_sort) - 1, len(list_to_sort) - 1 - out_index, -1):
             current_element = list_to_sort[index]
             next_element = list_to_sort[index - 1]
 
